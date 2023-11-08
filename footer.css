@@ -1,0 +1,20 @@
+/*Footer*/
+footer {
+	background-color: #333; 
+   	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-size: 16px;
+        }
+
+       /* Stile per i link nel footer */
+footer a {
+	color: #fff; /* Colore dei link chiaro */
+	text-decoration: none;
+	margin: 0 10px;
+        }
+
+        /*Link passati sopra*/
+footer a:hover {
+        text-decoration: underline;
+}

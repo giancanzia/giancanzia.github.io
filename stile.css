@@ -1,0 +1,27 @@
+
+/*.area_principale {
+  	padding: 50px;
+  	margin: 20px;
+	height: 80px;
+}*/
+.importante {
+	    font-weight: 500!important;
+		font-size: 80px;
+}
+
+
+
+#sezione_chi_siamo,
+#sezione_dove_siamo,
+#area_footer
+{
+	margin: 0;
+}
+/*div.bicolonna div
+{
+	float: left;
+    width: 30%;
+    width: 30%;
+    padding: 0 2%
+}*/
+

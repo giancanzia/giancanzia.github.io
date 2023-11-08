@@ -1,0 +1,45 @@
+/*Header*/
+.area_header
+{
+	height: 40px;
+	background-color: #aa1e13;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: verdana, sans-serif;
+}
+.container_header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.small_container_header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 50%;
+}
+
+.top_link {
+	min-width: 125px;
+	width: 30%;
+}
+
+a.button:link, a.button:visited {
+  padding: 10px 30px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+}
+
+a.button:hover, a.button:active {
+  background-color: #c5281c;
+}
+
+.top_text {
+	margin: 10px;
+}
