@@ -8,11 +8,12 @@
 	    font-weight: 500!important;
 		font-size: 80px;
 }
+.alabarda {
+	margin-left: 20px;
+	width: 60px;
+	height: 80px;
+}
 
-
-
-#sezione_chi_siamo,
-#sezione_dove_siamo,
 #area_footer
 {
 	margin: 0;

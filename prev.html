@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Mappa</title>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Preventivo</title>
 		<script type="text/javascript" id="cookiebanner" src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
 		<link href="default.css" rel="stylesheet" type="text/css">
 		<link href="header.css" rel="stylesheet" type="text/css">
-		<link href="map.css" rel="stylesheet" type="text/css">
+		<link href="prev.css" rel="stylesheet" type="text/css">
 		<link href="footer.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
@@ -29,21 +30,34 @@
 			</div>
 		</header>
 		<main>
-			<section>
-				<div>
-				<br>
-					<h1 class="titolo">Dove siamo</h1>
-					<div style="text-align: center;">
-						<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2790.426987812469!2d13.779907276845858!3d45.622157971076945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477b6bb600756abd%3A0xddd86b94e3215bc4!2sGENERALI%20ASSICURAZIONI!5e0!3m2!1sit!2sit!4v1699465105062!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<section class="sezione_principale">
+			<div class="container">
+				<h1 style="font-size:35px;">PREVENTIVO AUTO</h1>
+				<form>
+					<div class="form-group">
+						<label for="nome">Nome:</label>
+						<input type="text" id="nome" name="nome" required>
 					</div>
-				</div>
-			</section>
+					<div class="form-group">
+						<label for="cognome">Cognome:</label>
+						<input type="text" id="cognome" name="cognome" required>
+					</div>
+					<div class="form-group">
+						<label for="targa">Targa:</label>
+						<input type="text" id="targa" name="targa" required>
+					</div>
+					<div class="form-group">
+						<label for="data_nascita">Data di Nascita:</label>
+						<input type="date" id="data_nascita" name="data_nascita" required>
+					</div>
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" required>
+					</div>
+					<button type="submit" class="submit-button">Richiedi Preventivo</button>
+				</form>
+			</div>
 			<section>
-				<br><br>
-				<hr>
-				<br>
-				<h2 class="sottotitolo">Galleria</div>
-			</section>
 		</main>
 		<footer class="area_footer">
 			<p>&copy; 2023 Gianluca Canziani</p>
