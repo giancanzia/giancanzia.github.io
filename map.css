@@ -20,3 +20,15 @@ iframe {
 	margin: auto;
 	color: #c5281c;
 }
+
+.container_galleria {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+img {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+}
